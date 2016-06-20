@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Asset type:</strong>
+  <%= @item.asset_type %>
+</p>
+
+<p>
+  <strong>Asset barcode:</strong>
+  <%= @item.asset_barcode %>
+</p>
+
+<p>
+  <strong>Serial number:</strong>
+  <%= @item.serial_number %>
+</p>
+
+<p>
+  <strong>Event:</strong>
+  <%= @item.event %>
+</p>
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
